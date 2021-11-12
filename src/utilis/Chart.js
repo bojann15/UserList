@@ -46,9 +46,9 @@ const Chart = ({ users }) => {
 
     return (
         <div >
-            <h3 className="chartTitle">User Growth</h3>
+            <h3 style={{ position: 'relative', textAlign: 'center' }}>User Growth</h3>
             <Line data={data} options={options} />
-        </div>
+        </div >
     )
 
 };

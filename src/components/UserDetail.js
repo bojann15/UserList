@@ -101,7 +101,7 @@ const UserDetail = () => {
                         </Card>
                     </Col>
                     <Col className='pie' >
-                        <h3 >Task Percentege: {(userDetail.finishedTask / userDetail.assignedTask * 100).toFixed(0)}%</h3>
+                        <h3 >Task Percentage: {(userDetail.finishedTask / userDetail.assignedTask * 100).toFixed(0)}%</h3>
                         <PieChart data1={userDetail.finishedTask} data2={userDetail.assignedTask} />
                     </Col>
                 </Row>
